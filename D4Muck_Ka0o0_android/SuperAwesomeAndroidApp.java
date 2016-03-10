@@ -1,6 +1,7 @@
-public void thisIsANewMethod(){
+public boolean thisIsANewMethod(){
+     boolean value = false;
      System.out.println("Hello World!");
-     return;
+     return value;
 }
 
 public static void main (String[] args){
